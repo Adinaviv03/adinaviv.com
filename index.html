@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adin Aviv — Electrical Engineering</title>
+  <meta name="description" content="Adin Aviv — Electrical Engineering student at McMaster University and Application Engineering Intern at Semtech. Projects, experience, skills and certifications.">
+  <meta property="og:title" content="Adin Aviv — Electrical Engineering">
+  <meta property="og:description" content="Electrical Engineering student at McMaster University · Application Engineering Intern at Semtech.">
+  <meta property="og:image" content="https://adinaviv.com/assets/img/profile.jpg">
+  <meta property="og:url" content="https://adinaviv.com">
+  <meta name="theme-color" content="#f6f5f1">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="brand" aria-label="Adin Aviv — home">
+        <span class="brand-mark" aria-hidden="true">AA</span>
+        <span class="brand-name">Adin Aviv</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/docs/Adin_Aviv_Resume.pdf" class="btn btn-small" target="_blank" rel="noopener">Resume</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <svg class="hero-scope" aria-hidden="true" preserveAspectRatio="none" viewBox="0 0 1200 400">
+        <defs>
+          <pattern id="grid" width="60" height="50" patternUnits="userSpaceOnUse">
+            <path d="M60 0H0V50" fill="none"/>
+          </pattern>
+        </defs>
+        <rect class="scope-grid" width="1200" height="400" fill="url(#grid)"/>
+        <path class="scope-trace" d=""/>
+      </svg>
+
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow mono">Electrical Engineering · McMaster University</p>
+          <h1>Adin Aviv</h1>
+          <p class="hero-lead">
+            I build and test electronic systems, from signal-integrity benches at
+            <strong>Semtech</strong> to autonomous vehicles, radar DSP and embedded LiDAR.
+          </p>
+          <ul class="hero-meta mono">
+            <li><span class="dot dot-live"></span>Application Engineering Intern @ Semtech</li>
+            <li><span class="dot"></span>B.Eng Electrical (Co-op), class of 2028</li>
+            <li><span class="dot"></span>Hamilton, ON</li>
+          </ul>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View projects</a>
+            <a href="assets/docs/Adin_Aviv_Resume.pdf" class="btn" target="_blank" rel="noopener">Download resume</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch →</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="assets/img/profile.jpg" alt="Portrait of Adin Aviv" width="1050" height="1400">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-num mono">01</p>
+          <h2>About me</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm an electrical engineering student at McMaster University with a strong passion for building
+              and understanding how electronic systems work. I've built projects like a self-driving vehicle,
+              a room-mapping LiDAR device and a real-time radar signal processor, and I have research
+              experience in silicon photonics.
+            </p>
+            <p>
+              I'm currently an Application Engineering Intern at Semtech, where I test high-speed signal integrity
+              products and help run the R&amp;D lab. I like taking on projects no matter how difficult or complex
+              they are, and I'm always looking to learn new skills and put them to practical use.
+            </p>
+            <p>
+              Away from the bench I play chess (19 years), saxophone (11 years) and piano (9 years,
+              self-taught), and I love baking and cooking.
+            </p>
+          </div>
+
+          <aside class="about-side">
+            <div class="card">
+              <h3 class="card-label mono">Education</h3>
+              <p class="edu-school">McMaster University</p>
+              <p class="edu-degree">Bachelor of Engineering, Electrical (Co-op)</p>
+              <p class="muted mono small">Sep 2021 – Apr 2028 · Hamilton, ON</p>
+            </div>
+            <div class="card">
+              <h3 class="card-label mono">Honours &amp; awards</h3>
+              <ul class="plain-list">
+                <li>Engineering Award of Excellence</li>
+                <li>Eleanor Ritchie Post-Secondary Education Scholarship</li>
+                <li>Merit Award</li>
+                <li>Chemistry (University) Award</li>
+                <li>The Elaine Mitchell Contest for Creative Writing</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card-label mono">Outside the lab</h3>
+              <ul class="hobbies">
+                <li><span aria-hidden="true">♟</span> Chess <em>19 yrs</em></li>
+                <li><span aria-hidden="true">🎷</span> Saxophone <em>11 yrs</em></li>
+                <li><span aria-hidden="true">🎹</span> Piano <em>9 yrs, self-taught</em></li>
+                <li><span aria-hidden="true">🍞</span> Baking &amp; cooking</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-num mono">02</p>
+          <h2>Experience</h2>
+        </header>
+
+        <ol class="timeline">
+          <!-- Semtech -->
+          <li class="tl-item">
+            <div class="tl-marker" aria-hidden="true"></div>
+            <article class="tl-card">
+              <header class="tl-head">
+                <div>
+                  <h3>Application Engineering Intern</h3>
+                  <p class="tl-org">Semtech Corporation · Burlington, ON</p>
+                </div>
+                <p class="tl-date mono">May 2026 – Present</p>
+              </header>
+              <ul class="bullets">
+                <li>Test high-speed signal integrity products with lab equipment such as VNAs, BERTs, oscilloscopes, LCAs, MCBs and DCAs, connected over optical, RF and electrical links. Analyze eye diagrams, BER data, power consumption and device-specific settings and registers.</li>
+                <li>Developed a Python script to replace outdated software for an active MCB. I used a Beagle protocol analyzer to capture the key I²C transactions from the LabVIEW software, then connected the device to lab PCs over I²C through an internal dongle.</li>
+                <li>Handle lab management for the R&amp;D lab: ESD bench and floor safety checks, keeping the Indysoft equipment records up to date, and arranging equipment repair and calibration.</li>
+                <li>Create SAP purchase requisitions for calibration, repairs and lab purchases.</li>
+                <li>Maintain the lab 3D printer and design equipment enclosures and assemblies in Fusion 360.</li>
+              </ul>
+              <ul class="tags">
+                <li>Signal integrity</li><li>BERT / VNA</li><li>Python</li><li>I²C</li><li>LabVIEW</li><li>Fusion 360</li><li>SAP</li>
+              </ul>
+            </article>
+          </li>
+
+          <!-- Chess instructor -->
+          <li class="tl-item">
+            <div class="tl-marker" aria-hidden="true"></div>
+            <article class="tl-card">
+              <header class="tl-head">
+                <div>
+                  <h3>Chess Club Lead Instructor</h3>
+                  <p class="tl-org">JHamilton · Hamilton, ON</p>
+                </div>
+                <p class="tl-date mono">Oct 2023 – Jun 2024</p>
+              </header>
+              <ul class="bullets">
+                <li>Organized and led weekly chess sessions for youth, keeping students engaged and attendance steady.</li>
+                <li>Wrote structured lesson plans for different skill levels, covering strategy, tactics and game fundamentals.</li>
+                <li>Coached students one-on-one during games and gave feedback to strengthen their decision-making and critical thinking.</li>
+              </ul>
+              <ul class="tags"><li>Leadership</li><li>Teaching</li><li>Communication</li></ul>
+            </article>
+          </li>
+
+          <!-- BRG research -->
+          <li class="tl-item">
+            <div class="tl-marker" aria-hidden="true"></div>
+            <article class="tl-card">
+              <header class="tl-head">
+                <div>
+                  <h3>Silicon Photonics Research Assistant</h3>
+                  <p class="tl-org">McMaster University, Dept. of Engineering Physics · Hamilton, ON</p>
+                </div>
+                <p class="tl-date mono">May 2022 – Aug 2022</p>
+              </header>
+              <ul class="bullets">
+                <li>Led a research project, <em>"Spectroscopy for Rare-Earth Dopant Cross Sections"</em>. I designed and built an optical setup to measure absorbance data and extract rare-earth dopant cross sections, and presented the results at the McMaster Society for Engineering Research 2022 Poster Showcase.</li>
+                <li>Built a system in which a white light laser (WLL) sends light through a photonic crystal fiber, where it is collimated and then focused into single-mode or multimode fiber, including free-space coupling alignment.</li>
+                <li>Wrote a literature review on calculating emission cross sections from measured absorbance data (Füchtbauer–Ladenburg, Judd–Ofelt and McCumber theory) and began a MATLAB tool to process the spectra.</li>
+                <li>Operated and troubleshot an optical spectrum analyzer, Metricon, spectrometers, oscilloscope, signal generator and white light laser sources.</li>
+                <li>Helped implement a laser safety interlock, wrote SOPs for lab equipment, and advised the PI on equipment purchases.</li>
+              </ul>
+              <ul class="tags">
+                <li>Photonics</li><li>Spectroscopy</li><li>Fiber optics</li><li>OSA</li><li>MATLAB</li><li>Lab safety</li>
+              </ul>
+              <div class="gallery gallery-2">
+                <button class="gallery-item" data-lightbox="brg" data-caption="Fiber optic setup on the optical table">
+                  <img src="assets/img/brg-1.jpg" alt="Glowing green fiber optic cable looped across an optical table" loading="lazy">
+                </button>
+                <button class="gallery-item" data-lightbox="brg" data-caption="Spectroscopy setup in the lab">
+                  <img src="assets/img/brg-2.jpg" alt="Dimly lit optical lab with spectroscopy equipment" loading="lazy">
+                </button>
+              </div>
+              <p class="links-row">
+                <a href="assets/docs/brg-research-poster-2022.pdf" class="link-arrow" target="_blank" rel="noopener">View research poster (PDF)</a>
+              </p>
+            </article>
+          </li>
+
+          <!-- Camp counsellor -->
+          <li class="tl-item">
+            <div class="tl-marker" aria-hidden="true"></div>
+            <article class="tl-card">
+              <header class="tl-head">
+                <div>
+                  <h3>Camp Counsellor / Playground Leader</h3>
+                  <p class="tl-org">City of Toronto · Toronto, ON</p>
+                </div>
+                <p class="tl-date mono">Jun 2021 – Aug 2021</p>
+              </header>
+              <ul class="bullets">
+                <li>Supervised assigned campers at Canoe Landing CRC and kept them safe.</li>
+                <li>Prepared and led camp programming and activities, and used teachable moments as they came up.</li>
+                <li>Communicated with parents professionally and courteously.</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-num mono">03</p>
+          <h2>Projects</h2>
+        </header>
+
+        <div class="projects">
+
+          <!-- AEV -->
+          <article class="project" id="project-aev">
+            <div class="project-media">
+              <video controls playsinline preload="metadata" src="assets/video/aev-demo.mp4#t=0.1" aria-label="Demo video of the custom autonomous electric vehicle"></video>
+              <button class="gallery-item" data-lightbox="aev" data-caption="RViz visualization: LiDAR scan and map used for navigation">
+                <img src="assets/img/aev.jpg" alt="RViz window showing a LiDAR-generated hallway map with the vehicle's path" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">Robotics · System integration</p>
+              <h3>Custom Autonomous Electric Vehicle</h3>
+              <ul class="bullets">
+                <li>Controlled the vehicle with a Jetson Nano running Linux and ROS, integrating LiDAR, an IMU and a VESC for real-time sensing and motor control. Joystick input over ROS topics allowed manual driving.</li>
+                <li>Developed a wall-following controller using feedback linearization to keep the vehicle centred between hallway walls, with speed adjusted based on obstacle proximity.</li>
+                <li>Designed a Python navigation algorithm that finds the largest gap ahead of the vehicle, and used a quadratic program to create virtual barrier zones for safe path planning.</li>
+                <li>Wrote a Python self-driving algorithm that navigated around static obstacles by adjusting turning radius and velocity in real time based on stop and safe distance parameters.</li>
+              </ul>
+              <ul class="tags"><li>ROS</li><li>Linux</li><li>C++</li><li>Python</li><li>Jetson Nano</li><li>LiDAR</li><li>Controls</li></ul>
+            </div>
+          </article>
+
+          <!-- MTI Radar -->
+          <article class="project" id="project-radar">
+            <div class="project-media">
+              <button class="gallery-item" data-lightbox="radar" data-caption="DTFT magnitude response of the two-pulse and three-pulse MTI cancellers">
+                <img src="assets/img/radar.jpg" alt="Plot of DTFT magnitude response comparing two-pulse and three-pulse MTI cancellers" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">DSP · Embedded C</p>
+              <h3>MTI Radar Signal Processor</h3>
+              <ul class="bullets">
+                <li>Developed real-time signal processing algorithms in C for a TMS320 DSP processor to process raw radar data.</li>
+                <li>Implemented and validated two-pulse and three-pulse Moving Target Indicator (MTI) filters that suppressed stationary clutter and isolated moving targets in high-noise environments.</li>
+                <li>Validated the hardware with oscilloscope measurements, comparing filtered real-time outputs against raw radar sweeps to confirm zero-Doppler components were suppressed.</li>
+                <li>Refined the DSP routines and added a Hanning window, then used frequency-domain analysis to weigh signal attenuation against noise amplification.</li>
+              </ul>
+              <ul class="tags"><li>C</li><li>TMS320 DSP</li><li>MATLAB</li><li>Oscilloscope</li><li>Radar</li></ul>
+              <p class="links-row">
+                <a href="assets/docs/mti-radar-report.pdf" class="link-arrow" target="_blank" rel="noopener">Read the lab report (PDF)</a>
+              </p>
+            </div>
+          </article>
+
+          <!-- Embedded Spatial -->
+          <article class="project" id="project-spatial">
+            <div class="project-media">
+              <video controls playsinline preload="metadata" src="assets/video/spatial-demo.mp4#t=0.1" aria-label="Demo video of the embedded spatial measurement system"></video>
+              <button class="gallery-item" data-lightbox="spatial" data-caption="A scanned hallway (left) and its 3D reconstruction from LiDAR measurements (right)">
+                <img src="assets/img/spatial.jpg" alt="Photo of a hallway next to a 3D wireframe reconstruction of the same hallway" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">Embedded systems · Sensing</p>
+              <h3>Embedded Spatial Measurement System</h3>
+              <ul class="bullets">
+                <li>Designed and built an embedded spatial measurement system using a time-of-flight LiDAR sensor and a microcontroller to capture information about the area around the user.</li>
+                <li>Mounted the sensor on a rotating mechanism to take distance measurements through a full 360° within a single vertical plane.</li>
+                <li>Stored the mapped spatial data in onboard memory and later sent it to a PC for 3D reconstruction and visualization.</li>
+                <li>Wrote C and assembly to control the stepper motor, and Python for visualization. The sensor communicates over I²C, and the data goes to the PC over UART.</li>
+              </ul>
+              <ul class="tags"><li>C</li><li>Assembly</li><li>Python</li><li>I²C</li><li>UART</li><li>Time-of-flight LiDAR</li></ul>
+              <p class="links-row">
+                <a href="assets/docs/spatial-measurement-report.pdf" class="link-arrow" target="_blank" rel="noopener">Read the project report (PDF)</a>
+              </p>
+            </div>
+          </article>
+
+          <!-- High-Linearity Amp -->
+          <article class="project" id="project-amp">
+            <div class="project-media">
+              <button class="gallery-item" data-lightbox="amp" data-caption="PSpice schematic of the common-collector amplifier and its simulated input/output waveforms">
+                <img src="assets/img/amplifier.jpg" alt="PSpice schematic of a BJT common-collector amplifier above simulated sinusoidal waveforms" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">Analog circuit design</p>
+              <h3>High-Linearity Signal Amplifier</h3>
+              <ul class="bullets">
+                <li>Designed, simulated and built a high-linearity amplifier using an NPN BJT in a common-collector topology: a unity-gain buffer for impedance matching that boosts the current of a weak signal while keeping its voltage nearly the same.</li>
+                <li>Drove a 100&nbsp;Ω load with less than 10% attenuation, with clean output for signals up to about 0.5&nbsp;V before distortion appeared.</li>
+                <li>Validated performance with PSpice simulations, then confirmed the results on hardware with an oscilloscope, network analyzer and spectrum analyzer to meet every specification.</li>
+              </ul>
+              <ul class="tags"><li>BJT</li><li>PSpice</li><li>Network analyzer</li><li>Spectrum analyzer</li></ul>
+            </div>
+          </article>
+
+          <!-- XOR -->
+          <article class="project" id="project-xor">
+            <div class="project-media">
+              <button class="gallery-item" data-lightbox="xor" data-caption="LTSpice schematic of the CMOS XOR gate">
+                <img src="assets/img/xor-1.jpg" alt="LTSpice schematic of a CMOS XOR gate built from NMOS and PMOS transistors" loading="lazy">
+              </button>
+              <button class="gallery-item" data-lightbox="xor" data-caption="Oscilloscope capture used for rise/fall time and propagation delay measurements">
+                <img src="assets/img/xor-2.jpg" alt="Oscilloscope capture showing a square input and the gate's output transition" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">Digital circuit design</p>
+              <h3>MOSFET-Based XOR Gate</h3>
+              <ul class="bullets">
+                <li>Designed a CMOS XOR gate from NMOS and PMOS transistors, sizing the transistors in LTSpice for stable performance.</li>
+                <li>Built a hardware prototype on the Analog Discovery 2 kit, using its digital I/O pins to validate the circuit.</li>
+                <li>Ran functional testing and timing analysis with oscilloscopes, measuring voltage levels, rise/fall times and propagation delays against the performance criteria.</li>
+                <li>Explored pass-transistor logic (PTL) as an alternative design and compared its voltage and timing behaviour with the standard CMOS approach.</li>
+              </ul>
+              <ul class="tags"><li>CMOS</li><li>LTSpice</li><li>Analog Discovery 2</li><li>Timing analysis</li></ul>
+            </div>
+          </article>
+
+          <!-- Exam planner -->
+          <article class="project" id="project-planner">
+            <div class="project-media">
+              <video controls playsinline preload="metadata" src="assets/video/exam-planner-demo.mp4#t=0.1" aria-label="Demo video of the Exam Season Planner web app"></video>
+            </div>
+            <div class="project-body">
+              <p class="project-kicker mono">Hackathon · DeltaHacks 9</p>
+              <h3>Exam Season Planner</h3>
+              <ul class="bullets">
+                <li>Worked in a team at the DeltaHacks 9 hackathon to build a scheduling tool that helps students plan their study days during exam season, using HTML, Python, Flask and JavaScript.</li>
+                <li>Users set the start and end of their day and add tasks with estimated durations. The tool checks the total against the available hours, warns if the tasks don't fit, then spreads them across the day with short breaks built in.</li>
+                <li>Tasks appear on a colour-coded schedule, with distinct colours for tasks in progress and completed. JavaScript validates inputs and converts times, and invalid entries show a clear message.</li>
+              </ul>
+              <ul class="tags"><li>Python</li><li>Flask</li><li>JavaScript</li><li>HTML/CSS</li><li>Teamwork</li></ul>
+              <p class="links-row">
+                <a href="https://github.com/Adinaviv03/deltahacks9" class="link-arrow" target="_blank" rel="noopener">View on GitHub</a>
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-num mono">04</p>
+          <h2>Skills</h2>
+        </header>
+
+        <div class="skills-grid">
+          <div class="card skill-group">
+            <h3 class="card-label mono">Languages &amp; software</h3>
+            <ul class="chips">
+              <li>Python</li><li>C / C++</li><li>Verilog</li><li>Assembly</li><li>MATLAB</li><li>Linux</li><li>ROS</li>
+              <li>LTSpice</li><li>PSpice</li><li>Altium Designer</li><li>Quartus Prime</li><li>LabVIEW</li>
+              <li>Fusion 360</li><li>Autodesk Inventor</li><li>Visual Studio</li><li>Microsoft Office</li><li>SAP</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3 class="card-label mono">Technical</h3>
+            <ul class="chips">
+              <li>Signal integrity</li><li>Digital signal processing</li><li>Embedded systems</li><li>Circuit design</li>
+              <li>PCB design</li><li>RTL design</li><li>Object-oriented programming</li><li>I²C / UART</li>
+              <li>Fiber optics &amp; spectroscopy</li><li>3D printing</li><li>Laboratory management</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3 class="card-label mono">Lab equipment</h3>
+            <ul class="chips">
+              <li>Oscilloscopes</li><li>BERTs</li><li>VNAs</li><li>DCAs</li><li>LCAs</li><li>Optical attenuators</li>
+              <li>Signal generators</li><li>Spectrum &amp; network analyzers</li><li>Optical spectrum analyzers</li>
+              <li>Spectrometers</li><li>Beagle protocol analyzer</li>
+            </ul>
+          </div>
+          <div class="card skill-group">
+            <h3 class="card-label mono">Professional</h3>
+            <ul class="chips">
+              <li>Problem-solving</li><li>Communication</li><li>Collaboration</li><li>Leadership</li><li>Initiative</li>
+              <li>Time management</li><li>Critical thinking</li><li>Organization</li><li>Reliability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATES & COURSES ============ -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-num mono">05</p>
+          <h2>Certificates &amp; courses</h2>
+        </header>
+
+        <div class="cert-grid">
+          <article class="card cert">
+            <img class="cert-logo" src="assets/img/logo-cu-boulder.jpg" alt="University of Colorado Boulder logo" width="56" height="56" loading="lazy">
+            <div class="cert-body">
+              <h3>Introduction to FPGA Design for Embedded Systems</h3>
+              <p class="muted">University of Colorado Boulder · Coursera</p>
+              <p class="mono small muted">Issued Aug 2025<br>Credential ID EPA881133S80</p>
+              <ul class="tags"><li>Intel Quartus Prime</li><li>FPGA</li></ul>
+              <a class="link-arrow" href="https://www.coursera.org/account/accomplishments/records/EPA881133S80" target="_blank" rel="noopener">Show credential</a>
+            </div>
+          </article>
+          <article class="card cert">
+            <img class="cert-logo" src="assets/img/logo-arm.jpg" alt="Arm logo" width="56" height="56" loading="lazy">
+            <div class="cert-body">
+              <h3>Armv8-M Architecture Fundamentals</h3>
+              <p class="muted">Arm · Coursera</p>
+              <p class="mono small muted">Issued Aug 2025<br>Credential ID S8ZFK7U878KN</p>
+              <ul class="tags"><li>Arm Cortex-M</li><li>Embedded</li></ul>
+              <a class="link-arrow" href="https://www.coursera.org/account/accomplishments/records/S8ZFK7U878KN" target="_blank" rel="noopener">Show credential</a>
+            </div>
+          </article>
+          <article class="card cert">
+            <img class="cert-logo" src="assets/img/logo-altium.jpg" alt="Altium logo" width="56" height="56" loading="lazy">
+            <div class="cert-body">
+              <h3>PCB Basic Design Course</h3>
+              <p class="muted">Altium Education</p>
+              <p class="mono small muted">Issued Aug 2025<br>Credential ID cert_6n5fj6fp</p>
+              <ul class="tags"><li>PCB design</li><li>Altium Designer</li></ul>
+              <a class="link-arrow" href="assets/docs/altium-pcb-certificate.pdf" target="_blank" rel="noopener">View certificate (PDF)</a>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subhead">Relevant coursework</h3>
+        <div class="courses-grid">
+          <div class="course-group">
+            <h4 class="mono">Signals &amp; communications</h4>
+            <ul>
+              <li>Digital Signal Processing</li>
+              <li>Signals and Systems</li>
+              <li>Digital and Analogue Communication Systems</li>
+              <li>Advanced Probability and Random Processes</li>
+            </ul>
+          </div>
+          <div class="course-group">
+            <h4 class="mono">Circuits &amp; electronics</h4>
+            <ul>
+              <li>Circuits I and II</li>
+              <li>Electronics I and II</li>
+              <li>Electromagnetics I and II</li>
+              <li>Energy Conversion</li>
+            </ul>
+          </div>
+          <div class="course-group">
+            <h4 class="mono">Digital &amp; computing</h4>
+            <ul>
+              <li>Logic Design</li>
+              <li>Microprocessor System Project</li>
+              <li>Principles of Programming</li>
+              <li>Data-Based Structures and Algorithm Optimization</li>
+              <li>Computer-Aided Engineering</li>
+            </ul>
+          </div>
+          <div class="course-group">
+            <h4 class="mono">Systems, design &amp; practice</h4>
+            <ul>
+              <li>Control Systems</li>
+              <li>Electrical System Integration Project</li>
+              <li>Integrated Engineering Design Projects</li>
+              <li>Engineering Economics</li>
+              <li>Engineering Ethics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact">
+      <div class="container contact-inner">
+        <header class="section-head">
+          <p class="section-num mono">06</p>
+          <h2>Let's connect</h2>
+        </header>
+        <p class="contact-lead">
+          I'm looking for new-grad opportunities in electrical engineering, particularly in
+          signal integrity, embedded systems and hardware. I'd be glad to hear from you.
+        </p>
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:adinyitzhak@gmail.com" class="contact-card">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+              <span><strong>Email</strong><span class="mono small">adinyitzhak@gmail.com</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/adin-aviv-59bb951a5/" class="contact-card" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+              <span><strong>LinkedIn</strong><span class="mono small">in/adin-aviv-59bb951a5</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Adinaviv03" class="contact-card" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+              <span><strong>GitHub</strong><span class="mono small">Adinaviv03</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="assets/docs/Adin_Aviv_Resume.pdf" class="contact-card" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M12 18v-6M9 15l3 3 3-3"/></svg>
+              <span><strong>Resume</strong><span class="mono small">PDF · Fall 2026</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Adin Aviv</p>
+      <p class="mono small muted">Hamilton, ON · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-prev" aria-label="Previous image">‹</button>
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next image">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
