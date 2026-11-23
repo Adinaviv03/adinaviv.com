@@ -9,7 +9,7 @@ index.html          All page content (sections: about, experience, projects, ski
 css/style.css       Styles, including light/dark themes
 js/main.js          Mobile nav, theme toggle, scroll effects, image lightbox, hero waveform
 assets/img/         Photos, project images, certificate logos
-assets/video/       Project demo GIFs (muted)
+assets/video/       Project demo videos (muted)
 assets/docs/        Resume, reports and research poster (PDF)
 ```
 
@@ -23,7 +23,7 @@ Then open http://localhost:8080.
 
 ## Common edits
 
-- **Add a demo clip:** the demos are muted GIFs in `assets/video/`. Make one with ffmpeg
-  (`-an` drops the audio, then scale and palette it) and point an `<img class="demo-gif">` at it.
+- **Add a demo video:** drop a muted MP4 in `assets/video/` (`ffmpeg -an` strips the audio) and add a
+  `<video controls muted playsinline>` tag to the project in `index.html`.
 - **Update the resume:** replace `assets/docs/Adin_Aviv_Resume.pdf` (keep the same file name).
 - **Add a project:** copy an existing `<article class="project">` block in `index.html`.
