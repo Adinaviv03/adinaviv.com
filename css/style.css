@@ -318,11 +318,12 @@ ul { margin: 0; padding: 0; }
 .project { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: start; }
 .project:nth-child(even) .project-media { order: 2; }
 .project-media { display: grid; gap: 12px; }
-.project-media video,
+.project-media .demo-gif,
 .project-media .gallery-item img {
   width: 100%; border-radius: var(--radius); border: 1px solid var(--line); background: #0b0d10;
 }
-.project-media video { max-height: 460px; object-fit: contain; }
+.project-media .demo-gif { max-height: 460px; object-fit: contain; }
+.project-media .gallery-2 { margin-top: 0; }
 .project-media .gallery-item { border-radius: var(--radius); background: var(--surface); }
 .project-media .gallery-item img { object-fit: contain; max-height: 420px; background: var(--surface); }
 .project-kicker { color: var(--accent); font-size: 0.8rem; letter-spacing: 0.03em; margin-bottom: 8px; }
